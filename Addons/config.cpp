@@ -12,10 +12,10 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class NVGoggles;
+    class NVGoggles;
 	
-	class JAS_GPNVG18_Tan_WP: NVGoggles
-	{
+    class JAS_GPNVG18_Tan_WP: NVGoggles
+    {
         mass = 24;
     };
     class JAS_GPNVG18_blk: NVGoggles
