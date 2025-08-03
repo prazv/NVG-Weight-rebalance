@@ -2,7 +2,14 @@ class CfgPatches
 {
     class prazv_weight_NVG_Rebalance
     {
-        requiredaddons[]={};
+        requiredaddons[]=
+        {
+            //this 2 commented shits throw up an error even tho they are required???
+            //"MOL_GPNVG18",
+            //"GPNG18",
+            "rhsusf_c_troops",
+            "uk3cb_factions_equipment2"
+        };
         requiredversion= 1.0;
         units[]={};
         weapons[]={};
@@ -60,36 +67,35 @@ class CfgWeapons
     {
         class ItemInfo
         {
-            mass = 16;
+            mass = 18;
         };
     };
     class UK3CB_PVS5A: NVGoggles
     {
         class ItemInfo
         {
-            mass = 16;
+            mass = 18;
         };
     };
-    class rhsusf_ANPVS_14:NVGoggles
+    class rhsusf_ANPVS_14: NVGoggles
     {
         class ItemInfo
         {
-            mass = 14;
+            mass = 16;
         };
     };
-    class rhsusf_ANPVS_15
+    class rhsusf_ANPVS_15: NVGoggles
     {
         class ItemInfo
         {
             mass = 20;
         };
     };
-    class rhsusf_Rhino
+    class rhsusf_Rhino: NVGoggles
     {
         class ItemInfo
         {
-            mass = 5;
+            mass = 1;
         };
     };
 };
-
