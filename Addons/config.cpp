@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class NVG_Rebalance
+    class prazv_weight_NVG_Rebalance
     {
         requiredaddons[]={};
         requiredversion= 1.0;
@@ -16,46 +16,80 @@ class CfgWeapons
 	
     class JAS_GPNVG18_Tan_WP: NVGoggles
     {
-        mass = 24;
+        class ItemInfo
+        {
+            mass = 24;
+        };
     };
     class JAS_GPNVG18_blk: NVGoggles
     {
-        mass = 24;
+        class ItemInfo
+        {
+            mass = 24;
+        };
     };
     class JAS_GPNVG18_blk_WP: NVGoggles
     {
-        mass = 24;
+        class ItemInfo
+        {
+            mass = 24;
+        };
     };
     class JAS_GPNVG18_Tan: NVGoggles
     {
-        mass = 24;
+        class ItemInfo
+        {
+            mass = 24;
+        };
     };
     class JAS_GPNVG18_blk_TI: NVGoggles
     {
-        mass = 24;
+        class ItemInfo
+        {
+            mass = 24;
+        };
     };
     class JAS_GPNVG18_Tan_TI: NVGoggles
     {
-        mass = 24;
+        class ItemInfo
+        {
+            mass = 24;
+        };
     };
     class UK3CB_ANPVS7: NVGoggles
     {
-        mass = 16;
+        class ItemInfo
+        {
+            mass = 16;
+        };
     };
     class UK3CB_PVS5A: NVGoggles
     {
-        mass = 16;
+        class ItemInfo
+        {
+            mass = 16;
+        };
     };
     class rhsusf_ANPVS_14:NVGoggles
     {
-        mass = 14;
+        class ItemInfo
+        {
+            mass = 14;
+        };
     };
     class rhsusf_ANPVS_15
     {
-        mass = 20;
+        class ItemInfo
+        {
+            mass = 20;
+        };
     };
     class rhsusf_Rhino
     {
-        mass = 5;
+        class ItemInfo
+        {
+            mass = 5;
+        };
     };
 };
+
